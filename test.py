@@ -10,7 +10,9 @@ import re
 from sim import get_embeddings
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+
 # nltk.download('punkt')
+nltk.download('stopwords')
 
 import nltk
 from nltk.corpus import stopwords
